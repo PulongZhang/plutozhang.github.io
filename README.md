@@ -1,89 +1,78 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+# 张蒲龙的个人博客
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+欢迎来到我的个人博客。
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+## 关于博客
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+不知道你有没有听过一个著名的心理学理论——**杰内特定律（Janet's Law）**：随着年龄增长，每一年在我们总人生经历中所占的比例越来越小，因此主观感知到的时间密度也随之递减。
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+我从 4 岁开始记事，此后的每一年对人生体验的贡献值公式应为：
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+$$
+\text{当年体验值} = \frac{1}{\text{当时已经历的年数}}
+$$
 
-## Features
+- **5 岁时**：已有 4 年记忆，这一年占总体验的 $\frac{1}{4} = 25\%$
+- **10 岁时**：已有 9 年记忆，这一年占总体验的 $\frac{1}{9} \approx 11.1\%$
+- **20 岁时**：已有 19 年记忆，这一年占总体验的 $\frac{1}{19} \approx 5.3\%$
+- **75 岁时**：已有 74 年记忆，这一年仅占过往人生的 $\frac{1}{74} \approx 1.4\%$
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+若以中国男性平均寿命 75 岁（想起 63 岁的退休年龄，不禁莞尔）计算，人生的总主观体验量约为：
 
-## Skins
+$$
+T = \sum_{i=4}^{74} \frac{1}{i} = \frac{1}{4} + \frac{1}{5} + \dots + \frac{1}{74} \approx 3.017
+$$
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+通过逐年累加计算，有一个令人心惊的结论：
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+| 年龄 | 累计体验值 | 占比 |
+| :--- | :--- | :--- |
+| 5 岁 | 0.250 | 8.3% |
+| 10 岁 | 0.991 | 32.8% |
+| **17 岁** | **1.508** | **49.9%** |
+| **18 岁** | **1.562** | **51.8%** |
+| 63岁 | 2.871 | 95.1% |
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+原来，我所谓漫长的人生，在18岁时已经过去一大半了。
 
-### Highlight Theme
+在我18岁时，我颇为自负，从未有过写日记的习惯。彼时的我自诩记忆超群，无论是数月内的琐碎日常，还是经年往事的重要节点，似乎都能在脑海中清晰复刻。那时的我坚信：**人只活在当下**，凡是重要的，岁月自会将其铭刻于心；不重要的，随风而去便好。
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+还记得武汉疫情期间，关于方方日记的讨论甚嚣尘上。我当时对电影《邪不压正》里那句戏谑深以为然：
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+> "正经人谁写日记啊？"
+>
+> "谁把心里话放日记里啊！"
 
-## Documentation
+数载光阴弹指过，步入社会后，我惊觉自己已不再年轻，记忆力已经大幅度衰退，很多印象如同过眼云烟般散去，遗忘或许是一种本能，这倒也无妨。但最让我遗憾的是，那些深夜里突如其来的灵感、某时某刻的顿悟，想深藏心底的感情，因为没有及时记录，数周后再想回溯，竟再也找不回那种心境了，只觉得时光飞快，匆匆忙忙糊里糊涂的就过去了。
 
-### Start
+我最喜欢的词是宋代蒋捷的《虞美人·听雨》：
 
-- [Quick Start](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
+> 少年听雨歌楼上，红烛昏罗帐。
+> 壮年听雨客舟中，江阔云低、断雁叫西风。
+> 而今听雨僧庐下，鬓已星星也。
+> 悲欢离合总无情，一任阶前、点滴到天明。
 
-### Customization
+同样是落雨，从少年到老年，听出的意蕴各不相同，我不愿等到"总无情"的那一天，才去听那阶前的点滴冷雨，我要做点什么留住当下的感受。所以从此刻开始，我选择用文字对抗时间，至少得留下我曾经年轻过的证据——**这就是这个博客的由来**。
 
-- [Configuration](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/i18n)
+---
 
-### Content
+## 博客内容
 
-- [Writing Posts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/markdown-enhancements)
+在这个自留地里，我将分享：
 
-## Demo Pages
+- 💻 **编程技术**：代码世界的探索与复盘
+- 💭 **生活杂谈**：深夜的思考与时光的切片
 
-| Name | Description |
-| --- | --- |
-| [Home](https://kitian616.github.io/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://kitian616.github.io/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://kitian616.github.io/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
+博客中的文章以人工写作为主，偶尔借助 AI 进行润色和辅助创作，但我始终坚持用自己的语言表达真实的想法。
+
+---
+
+*池上听雷阶前看雨，花开千年人犹不老，终究只是年少时候的梦想 —— 江南*
+
+## 技术栈
+
+本博客基于 [Jekyll](https://jekyllrb.com/) 和 [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) 构建。
 
 ## License
 
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+本博客内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。
