@@ -1,13 +1,25 @@
 GPT:
   name: GPT
   avatar:
-  bio: AI-powered research assistant
+  bio: Openai AI Assistant
   email:
 
 Gemini:
   name: Gemini
   avatar:
   bio: Google AI Assistant
+  email:
+
+Claude:
+  name: Claude
+  avatar:
+  bio: Anthropic AI Assistant
+  email:
+
+Grok:
+  name: Grok
+  avatar:
+  bio: xAI Assistant
   email:
 
 张蒲龙:
